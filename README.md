@@ -41,6 +41,7 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 162402" src="https://github.com/user-attachments/assets/93701601-8c1e-4721-9dd8-e8d09dd50458" />
 
 
 ## Fig 2: Invoke the Cadence Environment
@@ -74,12 +75,15 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c89e2950-f237-43f4-b52d-980bfb2c7507" />
+
 
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9e784f24-269b-4345-89e4-b8e9f2128a7d" />
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +92,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/221f4926-1162-4ad2-af8d-09903957d997" />
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +103,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160341" src="https://github.com/user-attachments/assets/95ebcbc3-77c9-4c3b-a613-57feb3b7e56f" />
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +128,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160513" src="https://github.com/user-attachments/assets/f8db8027-6903-4add-bb06-ce92cfa52485" />
 
 ## Fig 7: Compiled database in worklib
 
@@ -151,6 +158,7 @@ It contains statements that map logical library names to their physical director
 9.	It also establishes net connectivity and prepares all of this for simulation
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160513" src="https://github.com/user-attachments/assets/cef6ba56-72f6-4d99-b5ec-b3cf5848e42c" />
 
 ## Fig 8: Elaboration Launch Option
 
@@ -163,12 +171,16 @@ It contains statements that map logical library names to their physical director
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+<img width="1007" height="462" alt="image" src="https://github.com/user-attachments/assets/1537b645-6b44-4539-ada5-9592bdfeb34f" />
 
 ## Fig 9: Design Browser window for simulation
+<img width="1067" height="582" alt="image" src="https://github.com/user-attachments/assets/f890ac0e-6f99-4445-9138-0fa5dad4c60e" />
 
 ## Fig 10: Simulation Waveform Window
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 162216" src="https://github.com/user-attachments/assets/851bfc5c-97bd-4e44-af92-1c62cb380918" />
 
 ## Fig 11: Simulation Waveform Window
+The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
 ### Result
 
